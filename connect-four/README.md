@@ -1,15 +1,21 @@
-# connect-four
+# Connect Four
 
-To install dependencies:
+A 2-player Connect Four game played in the terminal.
+
+## Rules
+
+- 6×7 grid, 4-in-a-row to win
+- First player to win 2 rounds wins the match
+- Players choose names and piece colors (Red or Yellow)
+- Pieces fall to the lowest available row in each column
+
+## Running
 
 ```bash
 bun install
+bun run src/index.ts
 ```
 
-To run:
+## Requirements
 
-```bash
-bun run index.ts
-```
-
-This project was created using `bun init` in bun v1.3.11. [Bun](https://bun.com) is a fast all-in-one JavaScript runtime.
+- [Bun](https://bun.com) v1.3.11+
